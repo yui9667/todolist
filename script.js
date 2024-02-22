@@ -1,8 +1,8 @@
 "use strict";
 
 const list = document.querySelector("ul");
-
 let myList = document.getElementsByTagName("LI");
+const listContainer = document.querySelector(".list-container");
 let i;
 for (i = 0; i < myList.length; i++) {
   let span = document.createElement("SPAN");
